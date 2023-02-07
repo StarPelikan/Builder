@@ -1,9 +1,9 @@
 package home;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        Person person= new PersonBuilder()
+        Person person = new PersonBuilder()
                 .setName("Джек")
                 .setSurname("Лондон")
                 .setAge(34)
@@ -33,4 +33,4 @@ public class Main {
             e.printStackTrace();
         }
     }
-    }
+}
